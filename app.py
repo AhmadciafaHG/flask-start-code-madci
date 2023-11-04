@@ -1,5 +1,5 @@
 # This is your library
-#hi my name is gem
+#hi my name is madci
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 
@@ -18,7 +18,7 @@ class User(db.Model):
 
 
 # Todo class
-class Todo(db.Model):
+class Todo(db.Model)
     id = db.Column(db.Integer, primary_key=True)
     item = db.Column(db.String)
     complete = db.Column(db.Boolean)
